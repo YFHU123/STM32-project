@@ -103,7 +103,7 @@ int main(void)
 
     Hardware_Init(); // 初始化外围硬件
 
-    ESP8266_Init(); // 初始化ESP8266
+    // ESP8266_Init(); // 初始化ESP8266
 
     // OneNET_RegisterDevice();
 
@@ -119,8 +119,8 @@ int main(void)
     Led_Set(LED_OFF);
 
     while (1) {
-        // DHT11_Read_Data(&temp, &humi); //
-        // UsartPrintf(USART_DEBUG, "temp %d ,humi %d\r\n", temp, humi);
+        DHT11_Read_Data(&temp, &humi); //
+        UsartPrintf(USART_DEBUG, "temp %d ,humi %d\r\n", temp, humi);
 
         // if (++timeCount >= 500) // 发送间隔5s
         // {

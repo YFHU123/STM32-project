@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "beep.h": "c",
+            "led.h": "c",
+            "key.h": "c",
+            "delay.h": "c"
+        }
+    },
+    "extensions": {}
+}
